@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Kamu 🤍</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    max-width: 500px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.photos img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease;
+}
+
+.photos img:hover {
+    transform: scale(1.08);
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #e91e63;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d81b60;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Maafin Aku Sayang 🤍</h1>
+
+    <div class="photos">
+        <img src="iyand.jpeg" alt="Foto 1">
+        <img src="iyand 1.jpeg" alt="Foto 2">
+    </div>
+
+    <p>
+        Aku benar-benar minta maaf atas kesalahanku.  
+        Aku tidak pernah bermaksud menyakiti kamu.  
+        Kamu sangat berarti dalam hidupku dan aku tidak ingin kehilangan kamu.  
+        Terima kasih sudah tetap bertahan sejauh ini.  
+        Aku sayang kamu, lebih dari yang bisa aku jelaskan.
+    </p>
+
+    <button onclick="alert('Terima kasih sudah mau baca ini 🤍 Aku sayang kamu.')">
+        Klik kalau kamu masih sayang aku
+    </button>
+
+    <br><br>
+
+    <audio controls autoplay loop>
+        <source src="BAKU SAYANG - FRESLY NIKIJULUW Ft RANDY AGIEL (Cover Content).mp3" type="audio/mpeg">
+        Browser tidak mendukung audio.
+    </audio>
+
+</div>
+
+</body>
+</html>
